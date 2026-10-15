@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — InchUp</title>
+  <meta name="description" content="How InchUp collects, uses and protects your data.">
+  <meta name="theme-color" content="#2F5BFF">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192.png">
+  <link rel="apple-touch-icon" href="images/logo-180.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img class="brand-mark" src="images/logo-180.png" alt="" width="32" height="32">InchUp</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    <div class="wrap">
+      <h1>Privacy Policy</h1>
+      <p class="meta"><strong>Last updated:</strong> October 15, 2026<br>
+      <strong>Contact:</strong> <a href="mailto:inshup.service.client@outlook.com">inshup.service.client@outlook.com</a></p>
+
+      <p>This policy explains what data InchUp processes, why, and what rights you have. It applies to the InchUp mobile app available on the App Store.</p>
+
+      <div class="callout"><p><strong>In short:</strong> your posture photos and scan history stay on your iPhone. A photo is sent securely to an AI service only for the time needed to analyze it. Your account (if you create one) is managed by our authentication provider. Payments are handled entirely by Apple. We do not sell your personal data.</p></div>
+
+      <h2>1. Who we are</h2>
+      <p>InchUp is a posture app: it analyzes a side-profile photo, estimates scores by body zone, and suggests a personalized exercise routine. Access to premium features may require a subscription purchased through the App Store.</p>
+
+      <h2>2. Data we collect</h2>
+      <h3>2.1 User account (if you sign up)</h3>
+      <p>When you create an account (email/password, Sign in with Apple or Google), we may process:</p>
+      <ul>
+        <li>email address</li>
+        <li>name or first name (or initials derived from it)</li>
+        <li>age (if provided)</li>
+        <li>a technical account identifier</li>
+      </ul>
+      <p>This profile information is stored with our authentication provider <strong>Supabase</strong> so that you can sign in and keep your session.</p>
+
+      <h3>2.2 Posture photos (camera)</h3>
+      <p>With your permission, InchUp uses the camera to capture a <strong>side-profile photo</strong> used for posture analysis. Motion sensors may also be used to indicate whether the phone is level.</p>
+      <ul>
+        <li>Photos and scan history are <strong>stored locally on your device</strong> (app storage).</li>
+        <li>To produce the analysis, the photo is <strong>sent securely (HTTPS) to the OpenAI API (vision model)</strong> for the time of processing. We do not use your photos to train our own models.</li>
+        <li>Scan photos are <strong>not uploaded</strong> to our Supabase account database.</li>
+      </ul>
+
+      <h3>2.3 App usage data (on your device)</h3>
+      <p>Stored locally on your iPhone, including:</p>
+      <ul>
+        <li>analysis results and scores</li>
+        <li>routines and workout sessions</li>
+        <li>settings (units, height, pain areas, session length, reminders)</li>
+        <li>progress and streak</li>
+      </ul>
+
+      <h3>2.4 Subscriptions and payments</h3>
+      <p>Purchases and free trials are processed through <strong>Apple In-App Purchase</strong>. Apple processes the payment; we never receive your card number or payment details.</p>
+      <p>We use <strong>Superwall</strong> to display the subscription screen and track premium access status (user identifier, plan-related attributes, purchase events from the SDK). Apple remains the merchant of record for billing.</p>
+
+      <h3>2.5 Notifications</h3>
+      <p>If you enable reminders, the app schedules local notifications (e.g. a daily reminder). You can turn them off at any time in iOS Settings.</p>
+
+      <h3>2.6 Data we do not intentionally collect</h3>
+      <p>We do not request clinical health data in the sense of a medical record. InchUp provides estimates and exercises for informational and wellness purposes only — <strong>not a medical diagnosis</strong>.</p>
+
+      <h2>3. How we use your data</h2>
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th>Purpose</th><th>Legal basis (summary)</th></tr></thead>
+        <tbody>
+          <tr><td>Create and manage your account</td><td>Performance of the service</td></tr>
+          <tr><td>Analyze your posture and display a report</td><td>Performance of the service (using your photo)</td></tr>
+          <tr><td>Personalize your routine and track progress</td><td>Performance of the service</td></tr>
+          <tr><td>Manage your subscription / free trial</td><td>Contract / legitimate interest (premium access)</td></tr>
+          <tr><td>Reminders (if enabled)</td><td>Consent / your settings</td></tr>
+          <tr><td>Security, abuse prevention, support</td><td>Legitimate interest</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>4. Third-party service providers</h2>
+      <p>Depending on the features you use, your data may be processed by:</p>
+      <ul>
+        <li><strong>Apple</strong> — App Store, Sign in with Apple, In-App Purchases, system notifications</li>
+        <li><strong>Google</strong> — if you choose “Sign in with Google”</li>
+        <li><strong>Supabase</strong> — authentication and account profile</li>
+        <li><strong>OpenAI</strong> — posture photo analysis (Vision API)</li>
+        <li><strong>Superwall</strong> — subscription screens and subscription status</li>
+      </ul>
+      <p>These providers act under their own privacy policies and security measures. <strong>We do not sell your personal data</strong> and we do not use it for third-party advertising.</p>
+
+      <h2>5. Data retention</h2>
+      <ul>
+        <li><strong>Local data</strong> (scans, history, settings): kept as long as the app is installed, or until you delete your account/data in the app or uninstall it.</li>
+        <li><strong>Account (Supabase)</strong>: kept as long as your account exists. Deleting your account in the app erases the associated local data and triggers deletion of your account.</li>
+        <li><strong>Photo sent to OpenAI</strong>: transmitted for analysis only; we do not host it on our profile servers. See also <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI's privacy policy</a> regarding API processing.</li>
+        <li><strong>Apple billing data</strong>: governed by Apple.</li>
+      </ul>
+
+      <h2>6. Security</h2>
+      <p>We apply reasonable measures (HTTPS transport, local storage restricted to the app, restricted access to service keys). No system is perfectly secure; please avoid photographing sensitive items that are not needed for posture analysis.</p>
+
+      <h2>7. Your rights</h2>
+      <p>Depending on where you live (e.g. GDPR in the EU/UK, CCPA in California), you may have the right to access, correct, delete, restrict or port your data, or to object to certain processing.</p>
+      <ul>
+        <li>In the app: <strong>Settings → Delete account</strong> (deletes your account and local scans/history).</li>
+        <li>By email: <a href="mailto:inshup.service.client@outlook.com">inshup.service.client@outlook.com</a>.</li>
+        <li>Camera and notification access can be revoked at any time in iOS Settings.</li>
+        <li>Subscriptions can be managed or cancelled in your Apple ID / App Store settings.</li>
+      </ul>
+      <p>You may also lodge a complaint with your local data protection authority.</p>
+
+      <h2>8. Children</h2>
+      <p>InchUp is not intended for children under 13 (or the minimum age applicable in your country). We do not knowingly collect data from children under that age. If you believe a child has provided us data, contact us and we will delete it.</p>
+
+      <h2>9. International transfers</h2>
+      <p>Some providers (notably OpenAI, Superwall and cloud infrastructure) may process data outside your country. Where this happens, appropriate safeguards (such as standard contractual clauses) may apply according to their practices.</p>
+
+      <h2>10. Changes to this policy</h2>
+      <p>We may update this policy from time to time. The “Last updated” date at the top will be revised. For significant changes, we may notify you in the app or on this website.</p>
+
+      <h2>11. Contact</h2>
+      <p>For any privacy question or request: <a href="mailto:inshup.service.client@outlook.com">inshup.service.client@outlook.com</a></p>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; 2026 M Solano &middot; InchUp</span>
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use (EULA)</a>
+        <a href="mailto:inshup.service.client@outlook.com">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
